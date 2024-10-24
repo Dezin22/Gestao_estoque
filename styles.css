@@ -1,0 +1,58 @@
+#banner {
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#banner .image-banner-full {
+  background-color: #0a4ee4;
+  background-image: url(https://storage.needpix.com/rsynced_images/banner-1623469_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+#banner .content-banner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-width: 1200px;
+  position: relative;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  gap: 20px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.containment {
+  margin: 0 auto;
+  width: 100%;
+}
+.main-header.banner {
+  top: 78px;
+}
+
+.main-header {
+  background: #d79c9c;
+  display: block;
+  font-family: Poppins, Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: auto;
+  left: 0;
+  padding: 48px 0;
+  position: fixed;
+  text-align: left;
+  top: 0;
+  transition: padding 0.3s linear, background-color 0.1s ease-out;
+  width: 100%;
+  z-index: 110;
+}
