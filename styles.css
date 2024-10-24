@@ -43,7 +43,7 @@
 }
 
 .main-header {
-  background: #d79c9c;
+  background: #c3e6c0;
   display: block;
   font-family: Poppins, Helvetica Neue, Helvetica, Arial, sans-serif;
   height: auto;
@@ -55,4 +55,13 @@
   transition: padding 0.3s linear, background-color 0.1s ease-out;
   width: 100%;
   z-index: 110;
+}
+.container a {
+  color: #020202;
+  text-decoration: none;
+  background-color: rgb(240, 232, 209);
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
 }
